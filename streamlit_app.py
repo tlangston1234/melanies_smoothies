@@ -41,7 +41,6 @@ if ingredients_list:
             st_df = st.dataframe(data=smoothiefroot_response.json(), use_container_width = True)
         except:
             "Nutrition information unavailable"
-            '
 
     #st.write(ingredients_string)
 
